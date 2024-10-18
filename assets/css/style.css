@@ -30,6 +30,7 @@ main {
     width: 65%;
     margin: auto;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .col-4 {
@@ -52,10 +53,10 @@ main {
     margin-bottom: 1rem;
 }
 
-/* .card_img {
+.card_img {
     width: 100%;
     height: 75%;
-} */
+}
 
 .card:hover {
     scale: 1.4;
