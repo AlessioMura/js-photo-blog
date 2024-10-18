@@ -1,7 +1,11 @@
+/* #region common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 header {
@@ -13,4 +17,46 @@ header {
 
 main {
     background-image: url('../img/cork.png');
+}
+
+/* #endregion common */
+
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 65%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.col-4 {
+    width: 32%;
+}
+
+.card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card_txt,
+.card_img {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* .card_img {
+    width: 100%;
+    height: 75%;
+} */
+
+.card:hover {
+    scale: 1.4;
+    rotate: 20deg;
 }
