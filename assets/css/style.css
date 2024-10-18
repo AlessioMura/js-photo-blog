@@ -21,8 +21,6 @@ main {
 
 /* #endregion common */
 
-
-
 .d-flex {
     display: flex;
 }
@@ -91,7 +89,7 @@ main {
         width: 70%;
     }
 
-    .col-md-6 {
+    .col-sm {
         width: 100%;
     }
 }
